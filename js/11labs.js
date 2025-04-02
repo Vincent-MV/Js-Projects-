@@ -1,5 +1,5 @@
 // Replace with your Eleven Labs API key
-const ELEVEN_LABS_API_KEY = 'sk_58be17904f0167140ff7091084555dcfb50c18f63d819d80';
+const ELEVEN_LABS_API_KEY = 'Your Key';
 // const VOICE_ID = '21m00Tcm4TlvDq8ikWAM'; // Example voice ID, replace with your desired voice ID
 
 document.getElementById('generate-speech').addEventListener('click', async () => {
