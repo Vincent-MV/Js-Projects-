@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text to speech</title>
+    <link rel="stylesheet" href="/css/11labs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!---->
+        <h1>Text-to-Speech with Eleven Labs</h1>
+
+        <div class="input-group">
+            <label for="text-input">Enter your text:</label>
+            <textarea id="text-input" placeholder="Enter text here..."></textarea>
+        </div>
+        
+
+        <div class="input-group">
+            <label for="voice-select">Choose a voice:</label>
+           
+            <select id="voice-select">
+             <option value="21m00Tcm4TlvDq8ikWAM">Rachel</option>
+             <option value="AZnzlk1XvdvUeBnXmlld">Domi</option>
+             <option value="EXAVITQu4vr4xnSDxMaL">Bella</option>
+             <option value="ErXwobaYiN019PkySvjV">Antoni</option>
+             <option value="MF3mGyEYCl7XYWbV9V6O">Elli</option>
+            <!-- Add more voices as needed -->
+            </select>
+        </div>
+
+        <button id="generate-speech">Generate Speech</button>
+
+        <div class="audio-player">
+            <audio id="audio-player" controls></audio>
+        </div>
+
+
+    </div>
+    
+    <script src="/js/11labs.js"></script>
+</body>
+</html>

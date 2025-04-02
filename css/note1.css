@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(
+        to right,
+        hsla(128, 81%, 40%, 0.49),
+        hsla(175, 93%, 47%, 0.289)
+    );
+}
+
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3rem;
+    color: rgba(0, 0, 255, 0.684);
+}
+
+.text{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 255, 0.684);
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+            /* TEXT AREA */
+.note{
+    resize: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 15px;
+    font-size: 1.2rem;
+    height: 200px;
+    color: rgba(0, 0, 255, 0.684);
+    background-color: rgba(255, 255, 255, 0.399);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.308);
+}
+
+.note::placeholder{
+    color: grey;
+    opacity: 50%;
+}
+
+.note:hover, .note:focus{
+    background-color: rgba(255, 255, 255, 0.599);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+    transition: all 300 ms ease;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.399);
+    padding: 15px;
+    border-radius: 16px;
+    color: rgba(0, 0, 0, 0.684);
+    cursor: pointer;
+    height: 200px;
+    font-size: 5rem;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.599);
+    color: rgba(0, 0, 0, 0.984);
+    transition: all 300 ms ease;
+}
